@@ -1,0 +1,20 @@
+{
+    "name": "root/app",
+    "authors": [
+        {
+            "name": "Mikael Mattsson",
+            "email": "mikael.p.mattsson@gmail.com"
+        }
+    ],
+    "minimum-stability" : "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.1",
+        "aws/aws-sdk-php": "^3.38"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
